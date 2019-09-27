@@ -1,5 +1,7 @@
 #! /bin/bash
 
+THIS_SCRIPT_DIR_ABSOLUTE=${PWD}
+
 sudo apt-get install -y git cmake make automake vim gcc g++
 
 mkdir ~/P4
@@ -23,7 +25,7 @@ cd ~/P4
 
 #installing requed packages 
 
-sudo apt-get install -y cmake g++ git automake libtool libgc-dev bison flex libfl-dev libgmp-dev libboost-dev libboost-iostreams-dev libboost-graph-dev llvm pkg-config python python-scapy python-ipaddr python-ply tcpdump
+sudo apt-get install -y cmake g++ git automake libtool libgc-dev bison flex libfl-dev libgmp-dev libboost-dev libboost-iostreams-dev libboost-graph-dev llvm pkg-config python python-scapy python-ipaddr python-ply tcpdump python-dev python3-dev
 
 
 #installing thrift
